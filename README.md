@@ -22,7 +22,7 @@ From there, you'll have the option to send your account balances to any number o
 ## Installation
 To install this package, run:
 
-    npm install ally_balance
+    npm install -g ally_balance
 
 This will install a new command line script: `ally_balance`
 
