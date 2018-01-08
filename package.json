@@ -1,0 +1,30 @@
+{
+  "name": "ally_balance",
+  "version": "1.0.0",
+  "description": "Get an alert with your ally bank balance",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/thinkjson/ally_balance.git"
+  },
+  "keywords": [
+    "ally",
+    "bank"
+  ],
+  "author": "Mark Cahill",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thinkjson/ally_balance/issues"
+  },
+  "homepage": "https://github.com/thinkjson/ally_balance#readme",
+  "dependencies": {
+    "chromeless": "^1.4.0",
+    "typescript": "^2.6.2"
+  },
+  "bin": {
+    "ally_balance": "./index.js"
+  }
+}
