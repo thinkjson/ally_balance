@@ -24,7 +24,7 @@ async function run() {
         .focus('#password')
         .type(password)
         .click('.login-box button')
-        .wait('th.accounts-group-header')
+        .wait('h3.accounts-group-header')
         .evaluate(() => {
             let balances = "";
             $('.account-card tbody tr').each((i, el) => { 
