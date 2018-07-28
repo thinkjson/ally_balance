@@ -16,7 +16,8 @@ async function run() {
 
     // Log into Ally Bank and grab account balances
     const balances = await chromeless
-        .goto('https://www.ally.com/')
+        .goto('https://www.ally.com/?context=bank')
+        .click('#login-btn')
         .focus('#account')
         .type('b')
         .focus('#username')
