@@ -1,6 +1,6 @@
 {
   "name": "ally_balance",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Get an alert with your ally bank balance",
   "main": "index.js",
   "scripts": {

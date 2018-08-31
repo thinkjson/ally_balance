@@ -38,3 +38,7 @@ Once you have created these environment variables in the scope of where the scri
     ally_balance
 
 This will log into your bank account using [chromeless](https://github.com/graphcool/chromeless), scrape your account balances, then trigger your IFTTT webhook using this information as `value1`. Now you can set up a cron job to deliver your account balances as often as you'd like. That's all there is to it!
+
+## Known Issues
+
+* Ally Bank will sometimes put a verification code interstitial after the login, which the script will not be able to handle programmatically. Simply visit allybank.com in a browser from the same IP address as the computer where your script will run, and select "Trust this computer".
